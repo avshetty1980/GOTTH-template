@@ -1,10 +1,6 @@
 # GoTTH
 A simple, modern stack for building fast web applications.
 
-**Watch walk-through video:**
-
-[![GoTTH stack walkthrough](https://img.youtube.com/vi/k00jVJeZxrs/0.jpg)](https://www.youtube.com/watch?v=k00jVJeZxrs)
-
 * Go - Backend
 * Tailwind - CSS
 * Templ - Templating
@@ -12,7 +8,7 @@ A simple, modern stack for building fast web applications.
 
 ## Technologies
 ### Tailwind
-To generate the Tailwind style sheet, we use the Tailwind binary. To get started with TailWind CSS, make sure you have the correct binary in the root directory. follow the instructions in this guide. Make sure you download the correct binary for your operating system.
+To generate the Tailwind style sheet, use the Tailwind binary.
 https://tailwindcss.com/blog/standalone-cli
 
 ### Templ
@@ -24,7 +20,7 @@ https://github.com/cosmtrek/air
 
 
 ## Makefile
-This Makefile is designed to simplify common development tasks for your project. It includes targets for building your Go application, watching and building Tailwind CSS, generating templates, and running your development server using Air.
+This Makefile is designed to simplify common development tasks for your project. It includes targets for building Go applications, watching and building Tailwind CSS, generating templates, and running your development server using Air.
 
 ### Targets:
 ```bash
